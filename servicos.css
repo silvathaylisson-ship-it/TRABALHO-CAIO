@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(172, 103, 236);
+    height: 200px;
+    padding: 20px 0;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(112, 9, 153, 0.829);
+    font-size: 22px;
+    font-weight: bold;  
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0 ;
+}
+.servicos{ 
+    width: 940px; 
+    margin: 0 auto; 
+    padding: 50px 0; 
+} 
+.sevicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
