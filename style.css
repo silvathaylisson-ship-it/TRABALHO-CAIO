@@ -71,14 +71,33 @@ main{
 form{
 margin: 40px 0;
  }
- form label{
+ 
+ form label, form p{
 display: block;
-font-size: 20px
-  margin: 0 10px; 
- }
+font-size: 20px;
+ margin: 0 0 10px;}
+ 
  form input{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
- }
+
+
+
+}
+.enviar{
+width:40% ;
+padding: 15px;
+background-color: black;
+color: azure;
+font-weight: bold;
+font-size: 18xp;
+border: nome;
+border-radius: 5px;
+cursor: pointer;
+}
+.enviar:hover{
+background-color: antiquewhite;
+transform: ;
+}
