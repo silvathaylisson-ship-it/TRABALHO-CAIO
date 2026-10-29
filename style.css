@@ -1,18 +1,12 @@
+
+
 header{
-    background-color: rgb(103, 29, 172);
-    height: 200px;
-    padding: 20px 0;
+    background-color: rgb(141, 213, 213);
+    height: 150px;
+   padding: 20px 0;
 }
-nav li{
-    display:inline;
-    margin: 0 0 0 15px;
-}
-nav a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(112, 9, 153, 0.829);
-    font-size: 22px;
-    font-weight: bold;  
+nav li {
+    display: inline;
 }
 .caixa{
     position: relative;
@@ -21,15 +15,23 @@ nav a{
 }
 nav{
     position: absolute;
-    top: 110px;
-    right: 0 ;
+    top:80px;
+    right: 0;
 }
-.servicos{ 
-    width: 940px; 
-    margin: 0 auto; 
-    padding: 50px 0; 
-} 
-.sevicos li{
+    nav a:hover{
+        color: aqua;
+        text-decoration: underline;
+    }
+
+h1 img{
+    width: 200px;
+}
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li{
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -37,12 +39,22 @@ nav{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.servicos h2{
+
+.servicos li:hover{
+    border-color: rgb(141, 213, 213);
+    border: 5px solid  rgb(141, 213, 213);
+}
+.servicos li:active{
+    background-color: rgb(141, 213, 213);
+}
+.servicos h2 {
     font-size: 30px;
     font-weight: bold;
 }
-.descricao{
+.descreicao{
     font-size: 18px;
 }
 .preco{
@@ -50,54 +62,36 @@ nav{
     font-weight: bold;
     margin-top: 10px;
 }
-footer{ 
+p{
+    color: rgb(18, 19, 20);
+}
+img {
+    width: 160px;
+}
+footer{
     text-align: center;
-background-color: rgb(103, 29, 172);
-padding: 40px 0;
-
+    background-color:  rgb(141, 213, 213);
+    padding: 40px 0;
 }
-footer img{
-    width: 50px;
-    margin-bottom: 20px;
-    color: black;
-}
-footer p{
-     color: black;
-     
+footer img {
+    width: 75px;
+    margin-bottom: 15px;
 }
 main{
-    margin: 0 auto;    
-     }
+    width: 940px;
+    margin: 0 auto;
+}
 form{
-margin: 40px 0;
- }
- 
- form label, form p{
-display: block;
-font-size: 20px;
- margin: 0 0 10px;}
- 
- form input{
+    margin: 40px 0;
+}
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 12px;
+}
+form input{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
-
-
-
-}
-.enviar{
-width:40% ;
-padding: 15px;
-background-color: black;
-color: azure;
-font-weight: bold;
-font-size: 18xp;
-border: nome;
-border-radius: 5px;
-cursor: pointer;
-}
-.enviar:hover{
-background-color: antiquewhite;
-transform: ;
+    width: 50% ;
 }
